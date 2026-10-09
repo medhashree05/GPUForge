@@ -1,0 +1,5 @@
+input.c:7:14: error: expected ';' at end of declaration [Parse Issue]
+input.c:8:13: error: use of undeclared identifier 'undeclared_var' [Semantic Issue]
+input.c:9:18: error: too few arguments to function call, expected 2, have 1 [Semantic Issue]
+input.c:2:5: note: 'add' declared here [Semantic Issue]
+input.c:10:11: error: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion,Value Conversion Issue]

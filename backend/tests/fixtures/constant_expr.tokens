@@ -1,0 +1,27 @@
+int              'int'                           Loc=<input.c:3:1>     [StartOfLine]
+identifier       'main'                          Loc=<input.c:3:5>     [LeadingSpace]
+l_paren          '('                             Loc=<input.c:3:9>    
+void             'void'                          Loc=<input.c:3:10>   
+r_paren          ')'                             Loc=<input.c:3:14>   
+l_brace          '{'                             Loc=<input.c:3:16>    [LeadingSpace]
+int              'int'                           Loc=<input.c:4:5>     [StartOfLine] [LeadingSpace]
+identifier       'x'                             Loc=<input.c:4:9>     [LeadingSpace]
+equal            '='                             Loc=<input.c:4:11>    [LeadingSpace]
+numeric_constant '10'                            Loc=<input.c:4:13>    [LeadingSpace]
+plus             '+'                             Loc=<input.c:4:16>    [LeadingSpace]
+numeric_constant '20'                            Loc=<input.c:4:18>    [LeadingSpace]
+semi             ';'                             Loc=<input.c:4:20>   
+int              'int'                           Loc=<input.c:5:5>     [StartOfLine] [LeadingSpace]
+identifier       'y'                             Loc=<input.c:5:9>     [LeadingSpace]
+equal            '='                             Loc=<input.c:5:11>    [LeadingSpace]
+identifier       'x'                             Loc=<input.c:5:13>    [LeadingSpace]
+star             '*'                             Loc=<input.c:5:15>    [LeadingSpace]
+numeric_constant '2'                             Loc=<input.c:5:17>    [LeadingSpace]
+minus            '-'                             Loc=<input.c:5:19>    [LeadingSpace]
+numeric_constant '5'                             Loc=<input.c:5:21>    [LeadingSpace]
+semi             ';'                             Loc=<input.c:5:22>   
+return           'return'                        Loc=<input.c:6:5>     [StartOfLine] [LeadingSpace]
+identifier       'y'                             Loc=<input.c:6:12>    [LeadingSpace]
+semi             ';'                             Loc=<input.c:6:13>   
+r_brace          '}'                             Loc=<input.c:7:1>     [StartOfLine]
+eof              ''                              Loc=<input.c:7:2>    

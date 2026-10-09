@@ -1,0 +1,11 @@
+[
+  {"id": "constant_expr", "file": "01_constant_expr.c", "title": "Arithmetic & constant expressions", "language": "c", "description": "Constant arithmetic; compare -O0 and -O2 to see if it is folded."},
+  {"id": "variables", "file": "02_variables.c", "title": "Variables & assignments", "language": "c", "description": "Local variables: watch alloca/load/store at -O0 and SSA values at -O2."},
+  {"id": "functions", "file": "03_functions.c", "title": "Functions & calls", "language": "c", "description": "A static helper function and calls to it; observe inlining."},
+  {"id": "conditionals", "file": "04_conditionals.c", "title": "Conditional statements", "language": "c", "description": "if/else chains and a branch on a constant condition."},
+  {"id": "loops", "file": "05_loops.c", "title": "Loops", "language": "c", "description": "for and while loops; see how loops look in IR (phi, br)."},
+  {"id": "invalid", "file": "06_invalid.c", "title": "Invalid program", "language": "c", "description": "Missing semicolon, undeclared identifier, wrong argument count, type error."},
+  {"id": "redundant", "file": "07_redundant.c", "title": "Unused / redundant computations", "language": "c", "description": "Dead stores, duplicated expressions, x - x, and an impossible branch."},
+  {"id": "cuda_kernel", "file": "08_cuda_kernel.cu", "title": "CUDA kernels (PTX)", "language": "cuda", "description": "SAXPY and a shared-memory reduction for PTX analysis."},
+  {"id": "cpp_class", "file": "09_cpp_class.cpp", "title": "C++ class & template", "language": "cpp", "description": "Template instantiation, a class with methods, and <cstdio>."}
+]
